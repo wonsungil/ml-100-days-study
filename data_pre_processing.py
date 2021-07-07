@@ -8,7 +8,7 @@ from sklearn.model_selection import train_test_split
 
 if __name__ == "__main__":
 
-    dataset = pd.read_csv("../dataset/Data.csv")
+    dataset = pd.read_csv("dataset/Data.csv")
     X = dataset.iloc[ :, :-1].values
     Y = dataset.iloc[ : , 3].values
 

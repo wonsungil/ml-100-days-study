@@ -7,7 +7,7 @@ from sklearn.linear_model import LinearRegression
 
 if __name__ == "__main__":
 
-    dataset = pd.read_csv("../dataset/studentscores.csv")
+    dataset = pd.read_csv("dataset/studentscores.csv")
     X = dataset.iloc[ : , : 1].values
     Y = dataset.iloc[ : , 1].values
 
